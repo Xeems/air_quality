@@ -5,8 +5,8 @@ export async function register() {
     if (process.env.NEXT_RUNTIME === 'nodejs') {
         const cron = await import('node-cron');
 
-        const lat = '55.7558'; 
-        const lon = '37.6173';
+        const lat = '53.7575'; 
+        const lon = '87.136';
 
         // Запуск каждую минуту ('*/1 * * * *') для быстрой проверки на localhost // потом перенести на интервал в 1 час ('0 */1 * * *')
         cron.schedule('0 */1 * * *', async () => {
