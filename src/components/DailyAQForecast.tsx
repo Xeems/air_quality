@@ -1,6 +1,8 @@
+"use client";
+
 import { Card, CardDescription, CardHeader, } from './ui/card'
 import { ChartConfig, ChartContainer, ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent } from './ui/chart'
-import { Bar, BarChart, BarShapeProps, CartesianGrid, Cell, Rectangle, XAxis } from 'recharts'
+import { Bar, BarChart, BarShapeProps, CartesianGrid, Rectangle, XAxis } from 'recharts'
 
 const chartData = [
   { time: "00:00", aqi: 35 },

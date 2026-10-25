@@ -46,7 +46,7 @@ export default function CityMap() {
         minZoom={9}
         maxPitch={85}
         mapStyle="mapbox://styles/mapbox/standard" 
-        mapboxAccessToken={process.env.MAP_BOX_KEY}
+        mapboxAccessToken={process.env.NEXT_PUBLIC_MAP_BOX_KEY}
         maxBounds={NOVOKUZNETSK_BOUNDS}
         config={standardMapConfig}
       >
